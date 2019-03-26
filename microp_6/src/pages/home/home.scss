@@ -1,0 +1,25 @@
+page-home {
+    
+    .fondo-img{
+        background-image: url('../assets/imgs/fondo.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: top;
+        background-size: contain;
+    }
+
+    .fondo-borroso{
+        margin-bottom: 5px;
+        padding: 2px 2px;
+        padding-top: 3px;
+        padding-bottom: 2px;
+        border-radius: 5px;
+        background: linear-gradient(to bottom, hsla(0, 0%, 0%, 0.5) 0%, hsla(0, 0%, 0%, 0.85) 100%); 
+    }
+
+    .borde{
+        border: 1px solid black;
+        color: black;
+    }
+
+}

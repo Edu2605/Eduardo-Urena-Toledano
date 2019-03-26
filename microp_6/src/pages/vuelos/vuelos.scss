@@ -1,0 +1,24 @@
+page-vuelos {
+
+    .fondo-img{
+        background-image: url('../assets/imgs/fondo.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: top;
+        background-size: contain;
+    }
+
+    .fondo-vuelos{
+        margin-bottom: 10px;
+        padding: 1px 1px;
+        padding-top: 5px;
+        border-radius: 5px;
+        background: linear-gradient(to bottom, hsla(0, 0%, 0%, 0.5) 0%, hsla(0, 0%, 0%, 0.85) 100%); 
+    }
+
+    .borde{
+        border: 0.5px solid black;
+        color: black;
+    }
+
+}

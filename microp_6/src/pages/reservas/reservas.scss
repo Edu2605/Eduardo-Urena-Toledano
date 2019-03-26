@@ -1,0 +1,40 @@
+page-reservas {
+
+    .fondo-img{
+        background-image: url('../assets/imgs/fondo.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: top;
+        background-size: contain;
+    }
+
+    .fondo-borroso{
+        margin-bottom: 10px;
+        padding: 2px 2px;
+        padding-top: 8px;
+        border-radius: 5px;
+        background: linear-gradient(to bottom, hsla(0, 0%, 0%, 0.5) 0%, hsla(0, 0%, 0%, 0.85) 100%); 
+    }
+
+    .texto{
+        color: #ffffff;
+    }
+
+    .borde{
+        border: 1px solid black;
+        color: black;
+    }
+
+    .borde2{
+        border: 1px solid rgb(94, 94, 94);
+        color: rgb(94, 94, 94);
+    }
+
+    .reserva{
+        padding: 5px 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: rgb(255, 255, 255);
+    }
+
+}
